@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>野獣先輩のホームページ</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .layout {
+    display: flex;
+    min-height: 100vh;
+  }
+  .sidebar {
+    width: 180px;
+    background-color: #dcdcdc;
+    border-right: 2px inset #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .sidebar ul {
+    list-style-type: square;
+    padding-left: 18px;
+    margin: 0;
+    line-height: 2.0;
+  }
+  .sidebar a {
+    color: #0000ff;
+    font-size: 14px;
+  }
+  .main {
+    flex: 1;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 22px;
+    color: #000080;
+    margin-top: 0;
+    border-bottom: 2px solid #000080;
+    padding-bottom: 3px;
+  }
+  .profile-table {
+    border-collapse: collapse;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 600px;
+  }
+  .profile-table th, .profile-table td {
+    border: 1px solid #808080;
+    padding: 6px 10px;
+    font-size: 14px;
+    text-align: left;
+  }
+  .profile-table th {
+    background-color: #e6e6fa;
+    width: 120px;
+  }
+  .img-box {
+    width: 160px;
+    height: 200px;
+    background-color: #cccccc;
+    border: 1px solid #808080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 15px;
+  }
+  .counter {
+    margin-top: 25px;
+    font-size: 13px;
+  }
+  .counter-num {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: monospace;
+    padding: 2px 6px;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+<div class="layout">
+  <div class="sidebar">
+    <b>MENU</b>
+    <hr>
+    <ul>
+      <li><a href="#">トップ</a></li>
+      <li><a href="#profile">プロフィール</a></li>
+      <li><a href="#activity">主な活動</a></li>
+      <li><a href="#bbs">掲示板</a></li>
+      <li><a href="#link">リンク集</a></li>
+    </ul>
+  </div>
+
+  <div class="main">
+    <h1>野獣先輩 Official Website</h1>
+
+    <div class="img-box">
+      [ 本人画像 ]
+    </div>
+
+    <p>野獣先輩の公式（風）ホームページへようこそ。</p>
+
+    <h2 id="profile" style="font-size: 16px; color: #000080; margin-top: 20px;">■ プロフィール</h2>
+    <table class="profile-table">
+      <tr>
+        <th>名前</th>
+        <td>野獣先輩 (Yaju-Senpai)</td>
+      </tr>
+      <tr>
+        <th>年齢</th>
+        <td>24歳</td>
+      </tr>
+      <tr>
+        <th>職業</th>
+        <td>学生</td>
+      </tr>
+      <tr>
+        <th>身長 / 体重</th>
+        <td>170cm / 74kg</td>
+      </tr>
+      <tr>
+        <th>特徴</th>
+        <td>いいよ！こいよ！ / 日焼けした身体</td>
+      </tr>
+      <tr>
+        <th>好きな食べ物</th>
+        <td>アイスティー（睡眠薬入りではない）</td>
+      </tr>
+    </table>
+
+    <h2 id="activity" style="font-size: 16px; color: #000080; margin-top: 20px;">■ 最新情報</h2>
+    <ul style="font-size: 14px; line-height: 1.6;">
+      <li>2026/08/30 ホームページ開設</li>
+      <li>屋上での鍛錬を実施中</li>
+    </ul>
+
+    <div class="counter">
+      アクセスカウンタ： <span class="counter-num">114514</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
