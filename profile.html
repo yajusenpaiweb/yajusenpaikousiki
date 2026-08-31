@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>プロフィール - 野獣先輩のホームページ</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .layout {
+    display: flex;
+    min-height: 100vh;
+  }
+  .sidebar {
+    width: 180px;
+    background-color: #dcdcdc;
+    border-right: 2px inset #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .sidebar ul {
+    list-style-type: square;
+    padding-left: 18px;
+    margin: 0;
+    line-height: 2.0;
+  }
+  .sidebar a {
+    color: #0000ff;
+    font-size: 14px;
+  }
+  .main {
+    flex: 1;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 22px;
+    color: #000080;
+    margin-top: 0;
+    border-bottom: 2px solid #000080;
+    padding-bottom: 3px;
+  }
+  h2 {
+    font-size: 16px;
+    color: #000080;
+    margin-top: 25px;
+    border-bottom: 1px dashed #000080;
+    padding-bottom: 2px;
+  }
+  .profile-table {
+    border-collapse: collapse;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 600px;
+  }
+  .profile-table th, .profile-table td {
+    border: 1px solid #808080;
+    padding: 6px 10px;
+    font-size: 14px;
+    text-align: left;
+  }
+  .profile-table th {
+    background-color: #e6e6fa;
+    width: 140px;
+  }
+  .qa-box {
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .qa-q {
+    font-weight: bold;
+    color: #cc0000;
+  }
+  .qa-a {
+    margin-top: 4px;
+    color: #000000;
+  }
+  .back-link {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<div class="layout">
+  <div class="sidebar">
+    <b>MENU</b>
+    <hr>
+    <ul>
+      <li><a href="index.html">トップ</a></li>
+      <li><a href="profile.html">プロフィール</a></li>
+      <li><a href="activity.html">主な活動</a></li>
+      <li><a href="bbs.html">掲示板</a></li>
+      <li><a href="link.html">リンク集</a></li>
+    </ul>
+  </div>
+
+  <div class="main">
+    <h1>Profile - プロフィール詳細</h1>
+
+    <p>野獣先輩の詳しいプロフィールとQ&Aコーナーです。</p>
+
+    <h2>■ 基本情報</h2>
+    <table class="profile-table">
+      <tr>
+        <th>名前</th>
+        <td>野獣先輩 (Yaju-Senpai)</td>
+      </tr>
+      <tr>
+        <th>年齢</th>
+        <td>24歳 (学生)</td>
+      </tr>
+      <tr>
+        <th>身長 / 体重</th>
+        <td>170cm / 74kg</td>
+      </tr>
+      <tr>
+        <th>趣味</th>
+        <td>水泳、筋トレ、屋上での日光浴</td>
+      </tr>
+      <tr>
+        <th>特技</th>
+        <td>お腹を鳴らすこと、アイスティーを淹れること</td>
+      </tr>
+      <tr>
+        <th>座右の銘</th>
+        <td>いいよ！こいよ！</td>
+      </tr>
+      <tr>
+        <th>好きな食べ物</th>
+        <td>冷たいアイスティー、焼き肉</td>
+      </tr>
+      <tr>
+        <th>好きな言葉</th>
+        <td>「暴れんなよ…暴れんなよ…」</td>
+      </tr>
+    </table>
+
+    <h2>■ 野獣先輩への質問コーナー</h2>
+    
+    <div class="qa-box">
+      <div class="qa-q">Q1. 普段はどんな活動をしていますか？</div>
+      <div class="qa-a">A1. 主に水泳部でのトレーニングと、屋上での鍛錬を行っています。</div>
+    </div>
+
+    <div class="qa-box">
+      <div class="qa-q">Q2. 得意な水泳のスタイルは？</div>
+      <div class="qa-a">A2. クロールとバタフライが得意です。</div>
+    </div>
+
+    <div class="qa-box">
+      <div class="qa-q">Q3. 日焼けのこだわりはありますか？</div>
+      <div class="qa-a">A3. 屋上での日光浴が一番ですね。こんがり焼くのがベストです。</div>
+    </div>
+
+    <div class="qa-box">
+      <div class="qa-q">Q4. 後輩へのメッセージをお願いします。</div>
+      <div class="qa-a">A4. 「いいよ！こいよ！」の精神で何事にもチャレンジしてください。</div>
+    </div>
+
+    <div class="back-link">
+      <a href="index.html">← トップページに戻る</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
